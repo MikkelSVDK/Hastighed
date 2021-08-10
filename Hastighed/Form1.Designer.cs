@@ -80,6 +80,7 @@ namespace Hastighed
             this.SpeedNumber.Name = "SpeedNumber";
             this.SpeedNumber.Size = new System.Drawing.Size(230, 28);
             this.SpeedNumber.TabIndex = 3;
+            this.SpeedNumber.Text = "━━━━━";
             this.SpeedNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SpeedType
@@ -90,6 +91,7 @@ namespace Hastighed
             this.SpeedType.Name = "SpeedType";
             this.SpeedType.Size = new System.Drawing.Size(230, 19);
             this.SpeedType.TabIndex = 4;
+            this.SpeedType.Text = "━━━";
             this.SpeedType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TypeRadio1
