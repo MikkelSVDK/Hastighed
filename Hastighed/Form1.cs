@@ -26,12 +26,12 @@ namespace Hastighed
             if (IsKMS)
             {
                 SpeedType.Text = "M/S";
-                number = NumberInput.Value * 1000;
+                number = NumberInput.Value * 3.6M;
             }
             else
             {
-                SpeedType.Text = "KM/S";
-                number = NumberInput.Value / 1000;
+                SpeedType.Text = "KM/T";
+                number = NumberInput.Value / 3.6M;
             }
             SpeedNumber.Text = Convert.ToString(number);
         }
