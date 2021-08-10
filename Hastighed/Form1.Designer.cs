@@ -154,7 +154,7 @@ namespace Hastighed
             this.Controls.Add(this.SpeedText);
             this.Controls.Add(this.CalculateButton);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Hastigheds Konvertering";
             ((System.ComponentModel.ISupportInitialize)(this.NumberInput)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
