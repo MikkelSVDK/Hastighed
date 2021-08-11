@@ -102,12 +102,13 @@ namespace Hastighed
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TypeRadio1.AutoSize = true;
             this.TypeRadio1.Checked = true;
+            this.TypeRadio1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TypeRadio1.Location = new System.Drawing.Point(12, 158);
             this.TypeRadio1.Name = "TypeRadio1";
-            this.TypeRadio1.Size = new System.Drawing.Size(91, 19);
+            this.TypeRadio1.Size = new System.Drawing.Size(99, 23);
             this.TypeRadio1.TabIndex = 5;
             this.TypeRadio1.TabStop = true;
-            this.TypeRadio1.Text = "km/t -> m/s";
+            this.TypeRadio1.Text = "km/t → m/s";
             this.TypeRadio1.UseVisualStyleBackColor = true;
             this.TypeRadio1.CheckedChanged += new System.EventHandler(this.TypeRadio1_CheckedChanged);
             // 
@@ -117,11 +118,12 @@ namespace Hastighed
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TypeRadio2.AutoSize = true;
+            this.TypeRadio2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TypeRadio2.Location = new System.Drawing.Point(12, 183);
             this.TypeRadio2.Name = "TypeRadio2";
-            this.TypeRadio2.Size = new System.Drawing.Size(92, 19);
+            this.TypeRadio2.Size = new System.Drawing.Size(99, 23);
             this.TypeRadio2.TabIndex = 6;
-            this.TypeRadio2.Text = "m/s -> km/s";
+            this.TypeRadio2.Text = "m/s → km/t";
             this.TypeRadio2.UseVisualStyleBackColor = true;
             this.TypeRadio2.CheckedChanged += new System.EventHandler(this.TypeRadio2_CheckedChanged);
             // 
